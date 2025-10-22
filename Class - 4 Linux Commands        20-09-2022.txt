@@ -1,0 +1,62 @@
+VIM EDITOR: 3 MODES
+
+1. COMMAND MODE 
+2. INSERT MODE 
+3. SAVE & QUIT MODE 
+
+1. COMMAND MODE: 
+yy	:	copies the entire line 
+p	:	prints the whole copied content 
+5p	:	prints 5 times 
+dd	:	deletes the whole line 
+5dd	:	deletes 5 lines 
+gg	:	top of the line
+2gg	:	goes to 2 line of the file 
+:5	:	goes to 5th line of the file 
+G	:	last line of the file
+u	:	undo 
+:set number	it sets the numbers to the file
+/word	:	used to find the word
+?word	:	used to find the word
+
+===================================================
+2. INSERT MODE: 
+
+i	:	command mode to insert mode 
+esc	:	insert mode to command mode 
+A	:	end of the line
+a	:	one characted ahead 
+o	:	new line create (down)
+O	:	creates new linje (up)
+I	:	starting of the line
+
+========================================================
+3. SAVE & QUIT MODE 
+
+:w	:	save
+:q	:	quit
+:wq	:	save & quit
+:w!	:	save forcefully
+:q!	:	quit forcefully
+:wq!	:	save & quit forcefully
+
+=====================================================
+
+USERS & GROUPS:
+
+user syntax: chown newuser filename
+group syntax: chgrp newgroup filename 
+user & group syntax: chown username:groupname filenames
+
+PERMISSIONS:
+
+syntax	:	chmod number filename
+
+====================================================
+r	:	read	:	4
+w	:	write	:	2
+x	:	execute	1
+-	:	nothing	0
+==================================================
+
+LINK FOR PUTTY: https://www.puttygen.com/download-putty
